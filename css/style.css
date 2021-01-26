@@ -1,0 +1,433 @@
+.flex {
+  display: flex;
+}
+.is-between {
+  justify-content: space-between;
+}
+.is-center {
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  max-width: 922px;
+  width: 100%;
+  margin: 0 auto;
+  background: #F6F6F6;
+  font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+/* ヘッダースタート */
+
+.header {
+  max-width: 922px;
+  width: 100%;
+  margin-top: 5px;
+  height: 200px;
+}
+
+.header-right-text {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.header-right-tel {
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  height: 39px;
+  margin-top: 20px;
+}
+.header-right-time {
+  height: 15px;
+  font-size: 13px;
+  border: 1px solid #333;
+  text-align: center;
+  padding: 5px;
+}
+.header-right-time span {
+  color: red;
+}
+
+.navbtn,.navbtn1,.navbtn5 {
+  width: 20%;
+}
+.navbtn a,.navbtn1 a,.navbtn5 a {
+  padding: 15px 0 15px 0;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 2px #6CC6C4;
+  margin-top: 17px;
+  border-right: 1px solid #6CC6C4;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  line-height: normal;
+  font-weight: bold;
+}
+.navbtn1 a {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.navbtn5 a {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+} 
+
+.navbtn a span,.navbtn1 a span,.navbtn2 a span {
+font-size: 10px;
+}
+/* ヘッダーラスト */
+
+/* 左メニュー */
+.menu-contents {
+  height: 760px;
+  position: relative;
+  margin-top: 30px;
+}
+.panList {
+  height: 30px;
+  font-size: 10px;
+  padding: 10px;
+  max-width: 260px;
+}
+.nemu {
+  height: 210px;
+  max-width: 260px;
+  margin-bottom: 20px;
+}
+
+.memuTitle {
+  height: 14px;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  text-align: center;
+  padding: 14px;
+  border: 1px solid #6CC6C4;
+  color: #fff;
+  text-shadow: 1px 1px 2px #6CC6C4;
+
+} 
+
+.menulist li a {
+  height: 40px;
+  background-color:  #fff;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  border: 1px solid #6CC6C4;
+  border-top-style: none
+}
+.menulist li a img {
+  margin: 0 10px;
+}
+
+/* 右イメージ */
+
+.img-contents {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  width: 98%;
+}
+.img-contents img {
+  width: 70%;
+
+}
+.main-new {
+  background: #fff;
+  width: 640px;
+  height: 450px;
+  margin-top: 8px;
+}
+
+.new-title {
+  width: 90%;
+  height: 70px;
+  border-bottom : 3px solid #6CC6C4;
+  margin: 0 auto;
+}
+
+.new-day {
+  width: 90%;
+  height: 70px;
+  border-bottom : 1px dotted #333;
+  margin: 0 auto;
+  font-size: 13px;
+}
+time {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.new-text {
+  padding-left: 0.5em;
+  text-indent: -0.5em
+}
+/* 右イメージラスト */
+
+/* 下ナビゲーション */
+
+.nav-end {
+  height: 30px;
+  max-width: 922px;
+  width: 100%;
+  background: #6CC6C4;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.nav-end a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-end li {
+  list-style: none;
+  
+}
+.nav-end-icon {
+  font-weight: bold;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.alladdress {
+  max-width: 922px;
+  width: 100%;
+  height: 52px;
+  /* justify-content: flex-end; */
+  border-bottom: 2px solid #6CC6C4;
+  font-size: 13px;
+  margin: 0  auto;
+}
+
+.footer {
+  height: 40px;
+  font-size: 10px;
+  text-align: center;
+  padding: 15px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2ページ目左メニュー */
+
+
+.clinic-contents {
+  height: 1390px;
+  position: relative;
+}
+.panList {
+  height: 30px;
+  font-size: 10px;
+  padding: 10px;
+  max-width: 260px;
+}
+
+
+/* 2ページ目医院紹介 */
+
+.main-contents {
+  position: absolute;
+  top: 49px;
+  left: 30%;
+  height: 1300px;
+  background: #fff;
+}
+.main-title{
+  height: 95px;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid #6CC6C4;
+  color: #fff;
+  text-shadow: 1px 1px 2px #6CC6C4;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.main-sub-title {
+  height: 50px;
+  background-color:  #fff;
+  border-bottom: 3px solid #6CC6C4;
+  display: flex;
+  align-items: center;
+  margin: 20px 15px 0 15px;
+}
+.main-sub-text {
+  height: 55px;
+  color: #6CC6C4;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+.main-text1 {
+  padding: 0 20px;
+  font-size: small;
+  line-height: 1.5em;
+}
+
+/* ////respoooooooooo//// */
+
+@media screen and (min-width: 699px){ 
+  .br-pc { display:block; }
+  .br-sp { display:none; }
+}
+@media screen and (max-width: 699px){ 
+  .br-pc { display:none; }
+  .br-sp { display:block; }
+}
+@media (max-width: 699px) {
+
+  body {
+    height: 1139px;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .is-between {
+    display: block;
+
+  }
+  .is-center {
+    display: block;
+  }
+  .flex-center {
+    display: block;
+
+  }
+
+
+  .header {
+    margin-top: 5px;
+    height: 140px;
+  }
+
+  .header-left {
+    text-align: center;
+  }
+  .header-right-text {
+    text-align: center;
+  }
+  .header-right-tel {
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    height: 25px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .header-right-time {
+    height: 15px;
+    font-size: 13px;
+    border: none;
+    padding: 0px;
+  }
+
+  .header-nav-sp {
+    display: flex;
+  }
+  .navbtn,.navbtn1,.navbtn5 {
+    height: 50px;
+  }
+  .navbtn a,.navbtn1 a,.navbtn5 a {
+    height: 50px;
+    padding: 0;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  .navbtn5 a, .navbtn1 a, .navbtn a {
+    box-sizing: border-box;
+    padding-top: 10px;
+  }
+
+  .navbtn4 a  {
+    box-sizing: border-box;
+    line-height: 7px;
+    padding-top: 5px;
+  }
+
+  .menu-contents {
+    position: relative;
+    height: 835px;
+  }
+  .menu1 {
+    position: absolute;
+    top: 620px;
+    width: 49%;
+  }
+  .menu2 {
+    position: absolute;
+    top: 620px;
+    right: 0;
+    width: 49%;
+  }
+
+
+
+
+
+  .img-contents {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    margin: 0 auto;
+  }
+  .img-contents img {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .main-new {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .new-title {
+    height: 40px;
+  }
+
+  
+  .nav-end {
+    display: flex;
+  }
+  .nav-end-icon  {
+    font-size: 10px;
+    margin-right: 0px;
+    margin-left: 7px;
+  }
+  
+  .alladdress {
+    padding: 10px 0;
+    height: 40px;
+    text-align: center;
+  }
+
+  .footer {
+    height: 14px;
+    font-size: 10px;
+    text-align: center;
+    padding: 15px;
+    
+  }
+
+
+
+}
